@@ -652,7 +652,7 @@ img {
 }
 
 #header-mobile .module-logo img {
-  height: 30px
+  height: 55px;
 }
 
 #header-mobile .module-nav-toggle {
@@ -671,7 +671,7 @@ img {
 
 #header-mobile .module-cart i {
   position: relative;
-  top: 4px;
+  top: 0px;
   font-size: 23.8px;
   font-size: 1.7rem;
   display: inline-block;
