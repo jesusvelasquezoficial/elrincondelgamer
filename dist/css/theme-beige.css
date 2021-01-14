@@ -3544,10 +3544,30 @@ body.no-margins .header-absolute .section-main {
   background-color: #ffd633
 }
 
+.btn-outline-primary-precio {
+  border-color: #ffd633;
+  color: inherit
+}
+
+.btn-outline-primary-precio:before {
+  /* background-color: #ffd633 */
+  border-color: #ffd633;
+  color: inherit
+}
+
 .btn-outline-primary:active,
 .btn-outline-primary:focus,
 .btn-outline-primary:focus:active,
 .btn-outline-primary:hover {
+  border-color: #ffd633;
+  background: rgba(0, 0, 0, 0);
+  color: #fff
+}
+
+.btn-outline-primary-precio:active,
+.btn-outline-primary-precio:focus,
+.btn-outline-primary-precio:focus:active,
+.btn-outline-primary-precio:hover {
   border-color: #ffd633;
   background: rgba(0, 0, 0, 0);
   color: #fff
