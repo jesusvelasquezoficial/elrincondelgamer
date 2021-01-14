@@ -504,8 +504,8 @@ img {
 }
 
 #header .module:not(.module-logo):not(.module-logo-horizontal) {
-  padding-top: 27.5px;
-  padding-bottom: 27.5px
+  padding-top: 22.5px;
+  padding-bottom: 22.5px
 }
 
 #header .module.right {
@@ -522,12 +522,12 @@ img {
   left: 15px;
   right: 15px;
   text-align: center;
-  padding: 3rem .5rem
+  padding: 1rem .2rem
 }
 
 @media (max-width:1500px) {
   #header .module-logo {
-    padding: 4rem 2rem
+    padding: 2.5rem 1rem
   }
 }
 
@@ -540,7 +540,7 @@ img {
 }
 
 #header .module-logo img {
-  max-width: 150px
+  max-width: 200px
 }
 
 #header .module-logo-horizontal {
