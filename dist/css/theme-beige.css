@@ -1389,38 +1389,33 @@ img {
   width: 100%
 }
 
-.menu-sample .title {
+.menu-sample .title,
+.menu-sample .title-lol,
+.menu-sample .title-gi {
   position: absolute;
   bottom: 63px;
   bottom: 4.5rem;
   right: 63px;
   right: 4.5rem;
   color: #fff;
-  font-size: 77px;
-  font-size: 5.5rem;
+  /* font-size: 77px; */
+  font-size: 4rem;
   font-weight: 100;
   margin-bottom: 0
 }
 
+.menu-sample .title-gi,
 .menu-sample .title-lol {
-  position: absolute;
-  bottom: 63px;
-  bottom: 4.5rem;
-  right: 63px;
-  right: 4.5rem;
-  color: #fff;
-  font-size: 77px;
-  font-size: 4.7rem;
-  font-weight: 100;
-  margin-bottom: 0
+  font-size: 3rem;
 }
 
 @media (max-width:991px) {
   .menu-sample .title {
-    font-size: 4rem
+    font-size: 3rem
   }
+  .menu-sample .title-gi,
   .menu-sample .title-lol {
-    font-size: 3.2rem
+    font-size: 2.5rem
   }
 }
 
@@ -4234,8 +4229,8 @@ body.no-margins .header-absolute .section-main {
   padding: 0;
   border: 0;
   z-index: 2;
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: .5;
   text-align: center
 }
 
@@ -4279,12 +4274,12 @@ body.no-margins .header-absolute .section-main {
 }
 
 .slick-prev {
-  left: -45px
+  left: 15px
 }
 
 [dir=rtl] .slick-prev {
   left: auto;
-  right: -45px
+  right: 15px
 }
 
 .slick-prev:before {
@@ -4296,11 +4291,11 @@ body.no-margins .header-absolute .section-main {
 }
 
 .slick-next {
-  right: -45px
+  right: 15px
 }
 
 [dir=rtl] .slick-next {
-  left: -45px;
+  left: 15px;
   right: auto
 }
 
