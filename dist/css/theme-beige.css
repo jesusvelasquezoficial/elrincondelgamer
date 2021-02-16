@@ -2227,7 +2227,10 @@ body.no-margins .header-absolute .section-main {
   padding: 4rem
 }
 
-@media (max-width:1500px) {
+@media (min-width:1500px) {
+  .section-main-1>.container .image {
+    right: -11vw;
+  }
   .section-main-1>.container .content .content-inner {
     padding: 3rem
   }
