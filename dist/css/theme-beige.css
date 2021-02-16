@@ -1405,6 +1405,7 @@ img {
 }
 
 .menu-sample .title,
+.menu-sample .title-cl,
 .menu-sample .title-lol,
 .menu-sample .title-gi {
   position: absolute;
@@ -1420,8 +1421,14 @@ img {
 }
 
 .menu-sample .title-gi,
+.menu-sample .title-cl,
 .menu-sample .title-lol {
   font-size: 3rem;
+}
+
+.menu-sample .title-lol {
+  font-size: 2.7rem;
+  margin-bottom: 4px;
 }
 
 @media (max-width:991px) {
