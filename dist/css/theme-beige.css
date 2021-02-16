@@ -955,6 +955,10 @@ img {
   margin-right: 1rem
 }
 
+.nav-main>li.has-dropdown>a {
+  font-size: 1.2em;
+}
+
 .nav-main>li.has-dropdown>a:after {
   -webkit-transition-property: all;
   transition-property: all;
