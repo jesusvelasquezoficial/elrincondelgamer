@@ -2154,7 +2154,7 @@ body.no-margins .header-absolute .section-main {
   position: absolute;
   top: 0;
   bottom: 0;
-  /* right: 70px; */
+  right: -4vw;
   width: calc(1010px + (100vw - 1110px)/2);
   cursor: move;
   overflow: hidden
@@ -2162,7 +2162,7 @@ body.no-margins .header-absolute .section-main {
 
 @media (max-width:575px) {
   .section-main-1>.container .image {
-    width: auto;
+    width: 130%;
     left: -15px;
     right: -15px
   }
@@ -2181,7 +2181,7 @@ body.no-margins .header-absolute .section-main {
 
 .section-main-1>.container .image .slide {
   position: relative;
-  height: 100%
+  height: 100%;
 }
 
 .section-main-1>.container .image .slick-list,
