@@ -2154,7 +2154,7 @@ body.no-margins .header-absolute .section-main {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 70px;
+  /* right: 70px; */
   width: calc(1010px + (100vw - 1110px)/2);
   cursor: move;
   overflow: hidden
@@ -2186,6 +2186,10 @@ body.no-margins .header-absolute .section-main {
 
 .section-main-1>.container .image .slick-list,
 .section-main-1>.container .image .slick-track {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 70px;
   height: 100%;
   overflow: hidden
 }
