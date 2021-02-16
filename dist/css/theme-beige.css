@@ -11,7 +11,7 @@ html {
 body {
   position: relative;
   color: #383c40;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 1.6;
   overflow-x: hidden;
@@ -527,11 +527,11 @@ img {
 
 #header .module-logo.menu {
   position: absolute;
-  top: 0px;
+  top: 9px;
   left: 15px;
   right: 15px;
   text-align: center;
-  padding: 0
+  padding: 1rem .2rem
 }
 
 @media (max-width:1500px) {
@@ -620,7 +620,7 @@ img {
   transition-timing-function: ease-out;
   font-size: 19.599px;
   font-size: 1.4rem;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   border-left: 1px solid #e0e0e0;
   margin-left: .5rem;
   padding-left: .75rem
@@ -826,7 +826,7 @@ img {
 }
 
 #panel-mobile .module-navigation {
-  padding: 1rem 1.5rem
+  padding: 1rem 1rem;
 }
 
 #panel-mobile .module-social {
@@ -845,7 +845,7 @@ img {
 }
 
 .nav-main-mobile {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -943,7 +943,7 @@ img {
 }
 
 .nav-main {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase
 }
 
@@ -1455,7 +1455,7 @@ img {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 1.5rem 2.5rem;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   margin-bottom: 2rem
 }
@@ -2245,7 +2245,7 @@ body.no-margins .header-absolute .section-main {
   width: 70px;
   height: 70px;
   display: block;
-  background-color: #242729;
+  background-color: #00051d;
   line-height: 70px;
   text-align: center;
   font-size: 19.599px;
@@ -2751,7 +2751,7 @@ body.no-margins .header-absolute .section-main {
   font-weight: 500;
   font-size: 13.299px;
   font-size: .95rem;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #a4a7a9
 }
 
@@ -3210,7 +3210,7 @@ body.no-margins .header-absolute .section-main {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   position: relative;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   border-radius: 0;
@@ -3498,7 +3498,7 @@ body.no-margins .header-absolute .section-main {
 }
 
 .btn-dark:before {
-  background-color: #242729
+  background-color: #00051d
 }
 
 .btn-dark:active,
@@ -3800,7 +3800,7 @@ body.no-margins .header-absolute .section-main {
   transition-duration: .25s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   padding: 1rem;
@@ -4119,7 +4119,7 @@ body.no-margins .header-absolute .section-main {
   padding: 1rem 2rem;
   display: inline-block;
   outline: none;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #00052d;
   min-width: 220px;
   margin-bottom: .2rem;
@@ -4591,7 +4591,7 @@ label {
   border-radius: 50%;
   top: .1em;
   font-weight: 400;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 1.3em;
   height: 1.3em;
   margin-right: .5rem;
@@ -4611,7 +4611,7 @@ label {
 .custom-checkbox .custom-control-input+.custom-control-indicator {
   top: .1em;
   font-weight: 400;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 1.3em;
   height: 1.3em;
   margin-right: .5rem;
@@ -5158,7 +5158,7 @@ label {
 
 .nav-pills>.nav-item>.nav-link {
   border-radius: 0;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-size: 1rem;
   font-weight: 300;
@@ -5184,7 +5184,7 @@ label {
 .nav-tabs>.nav-item>.nav-link {
   border-radius: 0;
   position: relative;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding: 1rem 2rem;
   font-weight: 300;
   margin-right: 0;
@@ -5337,7 +5337,7 @@ label {
   transform: translateY(100%);
   visibility: hidden;
   text-align: center;
-  font-family: 'Barlow', sans-serif
+  font-family: 'Poppins', sans-serif
 }
 
 #notification-bar>div {
@@ -5846,7 +5846,7 @@ hr.hr-primary {
 }
 
 .font-secondary {
-  font-family: 'Barlow', sans-serif
+  font-family: 'Poppins', sans-serif
 }
 
 .h1,
