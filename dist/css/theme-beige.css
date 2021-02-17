@@ -1001,6 +1001,7 @@ img {
 }
 
 .nav-main>li>a {
+  font-size: 1.2em;
   line-height: 45px
 }
 
@@ -2233,6 +2234,10 @@ body.no-margins .header-absolute .section-main {
 
 @media (min-width:1500px) {
   .section-main-1>.container .image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc(1010px + (100vw - 1110px)/2);
     right: -11vw;
   }
   .section-main-1>.container .content .content-inner {
