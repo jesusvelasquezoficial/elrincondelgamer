@@ -2258,7 +2258,20 @@ body.no-margins .header-absolute .section-main {
   }
 }
 
-@media only screen and (min-width:992px) and (max-width:1500px) {
+@media only screen and (min-width:1301px) and (max-width:1500) {
+  .section-main-1>.container .image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc(1010px + (87vw - 1110px)/2);
+    right: -4vw;
+  }
+  .section-main-1>.container .content .content-inner {
+    padding: 3rem
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1300px) {
   .section-main-1>.container .image {
     position: absolute;
     top: 0;
