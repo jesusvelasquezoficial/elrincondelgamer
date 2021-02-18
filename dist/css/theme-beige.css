@@ -2232,7 +2232,33 @@ body.no-margins .header-absolute .section-main {
   padding: 4rem
 }
 
-@media (min-width:1500px) {
+@media only screen and (min-width:1901px) and (max-width:3000px) {
+  .section-main-1>.container .image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc(1010px + (73vw - 1110px)/2);
+    right: -5vw;
+  }
+  .section-main-1>.container .content .content-inner {
+    padding: 3rem
+  }
+}
+
+@media only screen and (min-width:1501px) and (max-width:1900px) {
+  .section-main-1>.container .image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc(1010px + (87vw - 1110px)/2);
+    right: -4vw;
+  }
+  .section-main-1>.container .content .content-inner {
+    padding: 3rem
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1500px) {
   .section-main-1>.container .image {
     position: absolute;
     top: 0;
