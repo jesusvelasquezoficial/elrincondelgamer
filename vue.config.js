@@ -16,6 +16,7 @@ const options = {
 }
 
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
   chainWebpack: config => {
     config.module
       .rule('vue')
@@ -38,4 +39,8 @@ module.exports = {
         return options
       })
   }
+}
+
+module.exports = {
+
 }
